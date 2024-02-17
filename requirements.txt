@@ -2,3 +2,7 @@ pandas
 numpy
 seaborn
 -e .
+
+# -e .
+# I can directly install setup.py or whenever I am trying to install requirements.txt, setup.py should also run automatically to build the packages.
+# For enabling that, we have to write '-e .'
